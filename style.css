@@ -1,0 +1,64 @@
+body {
+    background-color: grey;
+    margin: 0;
+    
+    
+    
+}
+.Cuerpo {
+    display: flex; 
+    flex-direction: column;
+
+}
+.Cabeza {
+    background-color: white;
+    
+    
+    
+}
+
+
+.Contenedor {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+   
+    
+    width: 500px;
+    
+    
+}
+
+
+.Cabeza_Contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+h2 {
+    padding-left: 5px;
+    
+    
+}
+span {
+    padding-right: 5px;
+    color: grey;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+}
+
+.pie_Contenedor{
+    padding-left: 5px;
+    padding-bottom: 1px;
+}
+
+.espacio {
+    background-color: grey;
+    height: 20px;
+}
